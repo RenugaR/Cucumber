@@ -24,7 +24,7 @@ public  class Steps {
 	public void the_user_click_on_add_customer() {
 		driver.findElement(By.xpath("(//a[text()='Add Customer'])[1]")).click();
 	}
-
+					
 	@When("The user is filling all the details")
 	public void the_user_is_filling_all_the_details() {
 			driver.findElement(By.xpath("//label[@for='done']")).click();
